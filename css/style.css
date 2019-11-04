@@ -1,11 +1,34 @@
+html,body{
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
 #navbar {
     display: block;
+}
+.nav-link{
+    color:white;
+}
+
+.nav-link:hover{
+    background: rgb(39, 88, 194);
 }
 
 
 ul {
     list-style: none;
+    }
+
+#wraped_sections{
+    position: relative;
+    top:150px;
 }
+#navbar{
+    width: 100%;
+    background: #252525;
+}
+
+
 
 a {
     /* font-size: 1.5em; */
@@ -14,10 +37,7 @@ a {
 }
 
 @media only screen and (min-width: 600px) {
-    body {
-      background-color: lightblue;
-    }
-    #navbar {
+     #navbar {
         position: fixed;
     }
   }
