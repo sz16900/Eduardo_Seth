@@ -3,41 +3,59 @@ html,body{
     font-family: 'Open Sans', sans-serif;
 }
 
-#navbar {
-    display: block;
-}
-.nav-link{
-    color:white;
-}
-
-.nav-link:hover{
-    background: rgb(39, 88, 194);
-}
-
-
-ul {
-    list-style: none;
-    }
-
-#wraped_sections{
-    position: relative;
-    top:150px;
-}
-#navbar{
-    width: 100%;
-    background: #252525;
-}
-
-
-
 a {
-    /* font-size: 1.5em; */
     color: black;
     text-decoration: none;
 }
 
-@media only screen and (min-width: 600px) {
-     #navbar {
+
+@media only screen and (min-width: 1200px) {
+    #navbar {
+        display: block;
+        background: #252525;
         position: fixed;
+        padding: 1.5em;
+    }
+    .nav-link{
+        color:white;
+    }
+    
+    .nav-link:hover{
+        background: rgb(39, 88, 194);
+    }
+    
+    
+    ul {
+        list-style: none;
+        }
+    
+    #wraped_sections{
+        position: relative;
+        top:150px;
+        float: right;
+        width: 75%;
     }
   }
+
+@media only screen and (max-width: 1199px) {
+    #navbar {
+    /* width: 100%; */
+    display: block;
+    background: #252525;
+    position: fixed;
+    padding: 1.5em;
+    }
+    .nav-link{
+        color:white;
+    }
+    
+    .nav-link:hover{
+        background: rgb(39, 88, 194);
+    }
+    
+    
+    ul {
+        list-style: none;
+        }
+    
+}
